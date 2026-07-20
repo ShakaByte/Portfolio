@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react"
+
 function About () {
     return (
         <div className="section bg-[#FAF8FC] text-[#1E293B] border-[#E2E8F0]">
@@ -5,5 +7,4 @@ function About () {
         </div>
     )
 }
-
 export default About
