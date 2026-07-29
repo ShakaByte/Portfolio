@@ -75,13 +75,13 @@ function Projects () {
     ]
 
     return (
-        <div className="section bg-[#FAF8FC] text-[#1E293B] px-4 md:px-24 flex flex-col justify-start md:justify-center pt-20 md:pt-0 h-screen">
+        <div className="section bg-slate-50 text-slate-800 px-4 md:px-24 flex flex-col justify-start md:justify-center pt-20 md:pt-0 h-screen">
             <h2 className="text-4xl md:text-6xl font-bold text-center leading-[3] mb-3">My Projects</h2>
             <div className="flex items-center justify-center gap-2 md:gap-6">
-                <button className="w-14 h-14 flex items-center justify-center text-2xl rounded-full bg-[#1C8CC4] text-white shrink-0" onClick={prevSlide}>←</button>
+                <button className="w-14 h-14 flex items-center justify-center text-2xl rounded-full bg-sky-600 hover:bg-sky-700 text-white shrink-0 transition-colors" onClick={prevSlide}>←</button>
                 <div className="flex gap-9 justify-center">
                     {projects.slice(currentIndex, currentIndex + visibleCount).map((project, i) => (
-                        <div key={i} className="shrink-0 w-72 h-96 bg-[#F1F5F9] rounded-xl shadow-md flex flex-col overflow-hidden">
+                        <div key={i} className="shrink-0 w-72 h-96 bg-slate-100 border border-slate-200 rounded-xl shadow-md hover:shadow-lg transition-shadow flex flex-col overflow-hidden">
                             <ProjectCard
                                 Title={project.Title}
                                 Image={project.Image}
@@ -92,7 +92,7 @@ function Projects () {
                         </div>
                     ))}
                 </div>
-                <button className="w-14 h-14 flex items-center justify-center text-2xl rounded-full bg-[#1C8CC4] text-white shrink-0" onClick={nextSlide}>→</button>
+                <button className="w-14 h-14 flex items-center justify-center text-2xl rounded-full bg-sky-600 hover:bg-sky-700 text-white shrink-0 transition-colors" onClick={nextSlide}>→</button>
             </div>
         </div>
     )
