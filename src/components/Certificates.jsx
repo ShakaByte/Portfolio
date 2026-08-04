@@ -38,49 +38,41 @@ function Certificates () {
 
     const certificates = [
         {
-            Title: "Front End",
-            Image: "",
-            DateIssued: "10.2026",
-            SkillsGained: "xyz",
-            Description: "abc",
-            verifylink: "https://"
+            Title: "Coursera- By Meta: Introduction to Front-End Development",
+            Image: "apr14.jpg",
+            DateIssued: "April 14th 2025",
+            SkillsGained: "Web development | HTML | CSS",
+            Description: "Learned to Distinguish between front-end, back-end, and full-stack developers. Create and style a webpage with HTML and CSS. The benefits of working with UI frameworks.",
+            verifylink: "https://coursera.org/verify/YEPJQ1Z9TLN7"
         },
         {
-            Title: "backend",
-            Image: "",
-            DateIssued: "9",
-            SkillsGained: "xyz",
-            Description: "abc",
-            verifylink: "https://"
+            Title: "Coursera- By Meta: Programming with JavaScript",
+            Image: "sep16.jpg",
+            DateIssued: "September 16th 2025",
+            SkillsGained: "JavaScript | JSON",
+            Description: "Learned Creating simple JavaScript codes. Creating and manipulating objects and arrays. Writing unit tests using Jest",
+            verifylink: "https://coursera.org/verify/OKOQIMJ5VPZI"
         },
         {
-            Title: "backend",
-            Image: "",
-            DateIssued: "9",
-            SkillsGained: "xyz",
-            Description: "abc",
-            verifylink: "https://"
+            Title: "Commonwealth Bank Tech Explorer Job Simulation on Forage",
+            Image: "jul3.jpg",
+            DateIssued: "July 3rd 2026",
+            SkillsGained: "Design Thinking | Creative Planning | Teamwork",
+            Description: "Completed a job simulation focused on technology roles across the software engineering, tech analysis, cybersecurity, and data science teams",
+            verifylink: "/commonwealthbank.pdf"
         },
         {
-            Title: "backend",
-            Image: "",
-            DateIssued: "9",
-            SkillsGained: "xyz",
-            Description: "abc",
-            verifylink: "https://"
-        },
-        {
-            Title: "backend",
-            Image: "",
-            DateIssued: "9",
-            SkillsGained: "xyz",
-            Description: "abc",
-            verifylink: "https://"
-        },
+            Title: "Deloitte Australia Technology Job Simulation on Forage",
+            Image: "jul2.jpg",
+            DateIssued: "July 2nd 2026",
+            SkillsGained: "Data Analysis | Planning | Software Development",
+            Description: "Completed a job simulation involving development and coding. Wrote a proposal for creating a dashboard ",
+            verifylink: "/deloitte.pdf"
+        }
     ]
 
     return (
-        <div className="section bg-slate-900 text-slate-100 px-4 md:px-24 flex flex-col justify-start md:justify-center pt-20 md:pt-0 h-screen">
+        <div id="Certificates" className="section bg-slate-900 text-slate-100 px-4 md:px-24 flex flex-col justify-start md:justify-center pt-20 md:pt-0 h-screen">
             <h2 className="text-4xl md:text-6xl font-bold text-center leading-[3] mb-3">Certifications</h2>
             <div className="flex items-center justify-center gap-2 md:gap-6">
                 <button className="w-14 h-14 flex items-center justify-center text-2xl rounded-full bg-sky-600 hover:bg-sky-700 text-white shrink-0 transition-colors" onClick={prevSlide}>←</button>
