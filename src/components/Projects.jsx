@@ -38,44 +38,44 @@ function Projects () {
 
     const projects = [
         {
-            Title: "Lost and found portal",
-            Image: "src/assets/lp.png",
-            TechStack: "html",
-            Description: "crud ops",
-            gitlink: "https://www.github.com/ShakaByte"
+            Title: "Lost and Found Portal for College",
+            Image: "lostfound.jpg",
+            TechStack: "HTML, CSS, MYSQL, PHP, XAMPP, VS CODE",
+            Description: "Developed a web-based system to manage lost and found items on campus using PHP and MySQL. Improved item reporting and search efficiency while coordinating project planning and task execution.",
+            gitlink: "https://www.github.com/ShakaByte/Lost-Found-Portal-College"
         },
         {
-            Title: "Pet Health and Care",
-            Image: "src/assets/lp.png",
-            TechStack: "gemini api",
-            Description: "live location | med record tracking",
-            gitlink: "https://www.github.com/ShakaByte"
+            Title: "Pet Health and Care Web App with AI Chatbot",
+            Image: "petcare.jpg",
+            TechStack: "HTML, CSS, JAVASCRIPT, GEMINI API, FIREBASE, FIREBASE REALSTORE",
+            Description: "Built a responsive pet care web application with Firebase as auth and backend support and Gemini API integration for AI chatbot. Collaborated in a 24-Hour hackathon, contributing to development, teamwork and problem solving.",
+            gitlink: "https://www.github.com/ShakaByte/Pet-Care-App"
         },
         {
-            Title: "Secure File Sharing Portal",
-            Image: "src/assets/lp.png",
-            TechStack: "React",
-            Description: "Secure | OTP Login",
-            gitlink: "https://www.github.com/ShakaByte"
+            Title: "Secure File Sharing Portal for College(in progress)",
+            Image: "",
+            TechStack: "REACT, SUPABASE, RESEND",
+            Description: "Developed a secure file sharing platform with file upload/storage using Supabase and a role-based interface. Led module development and coordinated front-end/back-end integration with a focus on usability.",
+            gitlink: ""
         },
         {
-            Title: "HemoLynk- Blood Bank Redistribution Engine",
-            Image: "src/assets/lp.png",
-            TechStack: "Flutter",
-            Description: "Smart Predictions | Smart Alerts",
-            gitlink: "https://www.github.com/ShakaByte"
+            Title: "HemoLynk- AI Driven Blood Bank Inventory Management with Risk Redistribution Engine(in progress)",
+            Image: "",
+            TechStack: "FLUTTER, PYTHON, FIREBASE, FIREBASE REALSTORE, GOOGLE MAPS API",
+            Description: "Developed an AI-driven blood bank inventory management system that uses a risk-redistribution engine to cut wastage in surplus areas and route blood supply to underserved \"blood desert\" regions in near real-time.",
+            gitlink: ""
         },
         {
-            Title: "Solo travel",
-            Image: "src/assets/lp.png",
-            TechStack: "Flutter",
-            Description: "SOS Signal | Volunteer Traveller Face Recognition",
-            gitlink: "https://www.github.com/ShakaByte"
+            Title: "Protfolio",
+            Image: "portfolio.jpg",
+            TechStack: "REACT, TAILWIND CSS",
+            Description: "Developed a personal portfolio with React and Tailwind CSS, showcasing my skills, projects and certifications through a fast, responsive, and modern UI maintaining the consistency.",
+            gitlink: "https://github.com/ShakaByte/Portfolio"
         }
     ]
 
     return (
-        <div className="section bg-slate-50 text-slate-800 px-4 md:px-24 flex flex-col justify-start md:justify-center pt-20 md:pt-0 h-screen">
+        <div id="Projects" className="section bg-slate-50 text-slate-800 px-4 md:px-24 flex flex-col justify-start md:justify-center pt-20 md:pt-0 h-screen">
             <h2 className="text-4xl md:text-6xl font-bold text-center leading-[3] mb-3">My Projects</h2>
             <div className="flex items-center justify-center gap-2 md:gap-6">
                 <button className="w-14 h-14 flex items-center justify-center text-2xl rounded-full bg-sky-600 hover:bg-sky-700 text-white shrink-0 transition-colors" onClick={prevSlide}>←</button>
