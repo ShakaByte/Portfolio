@@ -3,7 +3,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Certificates from './components/Certificates'
-import ResumeContact from './components/Resumecontact'
+import ResumeContact from './components/ResumeContact'
 import Navbar from './components/navbar'
 
 import './App.css'
