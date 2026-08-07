@@ -1,6 +1,6 @@
 import { MdEmail } from 'react-icons/md'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { SiLeetcode } from 'react-icons/si'
+//import { SiLeetcode } from 'react-icons/si'
 
 function Contact() {
     return (
@@ -27,12 +27,12 @@ function Contact() {
                         <span>LinkedIn</span>
                     </a>
                 </li>
-                <li>
+{/*                <li>
                     <a href="https://leetcode.com/u/ShakaByte-Ved" target="_blank" className="flex items-center gap-3 px-4 py-2 rounded-lg border border-slate-200 hover:bg-slate-100 transition-colors">
                         <SiLeetcode size={20} className="text-sky-600" />
                         <span>LeetCode</span>
                     </a>
-                </li>
+                </li>*/} 
             </ul>
         </div>
     )
