@@ -24,9 +24,9 @@ function Footer() {
         <a href="https://linkedin.com/in/vedant-pokale-471937220/" target="_blank" className="text-slate-500 hover:text-sky-600 transition-colors">
           <FaLinkedin size={18} />
         </a>
-        <a href="https://leetcode.com/u/ShakaByte-Ved" target="_blank" className="text-slate-500 hover:text-sky-600 transition-colors">
+        {/*<a href="https://leetcode.com/u/ShakaByte-Ved" target="_blank" className="text-slate-500 hover:text-sky-600 transition-colors">
           <SiLeetcode size={18} />
-        </a>
+        </a>*/}
       </div>
 
       <p className="text-slate-500 text-xs pb-2">© 2026 Vedant N Pokale. All rights reserved.</p>

@@ -1,5 +1,5 @@
 function Skills() {
-    const technicalSkills = ["React", "JavaScript", "Tailwind CSS", "HTML", "CSS", "Node.js", "Kotlin", "Firebase", "Supabase", "MySQL", "C", "Python", "Git/Github", "Android Studio"]
+    const technicalSkills = ["React", "JavaScript", "Tailwind CSS", "HTML", "CSS", "Node.js", "Kotlin", "Firebase", "Supabase", "MySQL", "C", "Python", "Git/Github", "Android Studio", "Jetpack Compose", "RoomDB", "SQLite"]
     const softSkills = ["Creativity", "Communication", "Problem Solving", "Adaptability", "Quick Learning Ability", "Leadership", "Disciplined work ethics", "Collaborative Team Player", "Solution Oriented"]
     return (
         <div id="Skills" className="section bg-slate-900 text-slate-100 px-4 md:px-24 h-screen flex flex-col justify-start md:justify-center pt-20 md:pt-0">

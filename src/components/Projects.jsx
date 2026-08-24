@@ -71,6 +71,13 @@ function Projects () {
             TechStack: "REACT, TAILWIND CSS",
             Description: "Developed a personal portfolio with React and Tailwind CSS, showcasing my skills, projects and certifications through a fast, responsive, and modern UI maintaining the consistency.",
             gitlink: "https://github.com/ShakaByte/Portfolio"
+        },
+        {
+            Title: "Android App Development - CodSoft Internship",
+            Image: "",
+            TechStack: "Kotlin, Android Studio, Jetpack Compose, RoomDB, SQLite",
+            Description: "Developed 3 feature-rich applications using Android Studio and Jetpack Compose during a CodSoft Internship to master core Kotlin development.",
+            gitlink: "https://github.com/ShakaByte/CODSOFT_TASKS"
         }
     ]
 
