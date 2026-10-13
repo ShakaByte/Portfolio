@@ -1,16 +1,40 @@
-# React + Vite
+# 💼 Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website of Vedant Pokale, B.E CSE student building web, mobile, and ML-driven apps.
 
-Currently, two official plugins are available:
+🔗 [Live Site](https://portfolio-opal-five-11.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Overview
 
-## React Compiler
+A responsive portfolio showcasing my projects, skills, and contact details. Built to give recruiters a quick view of what I've built and how to reach me.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Sections
 
-## Expanding the ESLint configuration
+- **Hero / About:** short intro and role
+- **Projects:** HemoLynk, Knowledge-Drop, AniPet, with links to repos and demos
+- **Skills:** tech stack
+- **Contact:** email, LinkedIn, GitHub
+- **Resume:** link to your hosted resume
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Frontend | ReactJS, TailwindCSS |
+| Hosting | Vercel |
+
+## 🚀 Run Locally
+
+```bash
+git clone https://github.com/ShakaByte/Portfolio.git
+cd Portfolio
+# open index.html in a browser, or run: npm install && npm start
+```
+
+## 📸 Preview
+
+![Portfolio screenshot](screenshot.png)
+
+## 👤 Author
+
+**Vedant Pokale** ([ShakaByte](https://github.com/ShakaByte))
