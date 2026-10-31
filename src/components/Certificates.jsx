@@ -57,6 +57,24 @@ const certificates = [
             "Completed a job simulation involving development and coding. Wrote a proposal for creating a dashboard ",
         verifylink: "/deloitte.pdf",
     },
+    {
+        Title: "Brain and Bytes Hackathon, Dept. of CSE (RYMEC)",
+        Image: "hackathon.jpeg",
+        DateIssued: "September 2025",
+        SkillsGained: "JavaScript | API Integration",
+        Description:
+            "Developed Pet health and care web app with multi-pet profiles, medical history tracking, reminders, and an AI chatbot.",
+        verifylink: "/hackathon.pdf",
+    },
+    {
+        Title: "FullStack Web Development, Coding Club (Dept. of CSE)",
+        Image: "fullstack.jpeg",
+        DateIssued: "December 2024",
+        SkillsGained: "Figma | React | Web Development | FullStack Development",
+        Description:
+            "Attended Fullstack Development program one month learning journey.",
+        verifylink: "/fullstack.pdf",
+    },
 ];
 
 function Certificates() {

@@ -3,17 +3,32 @@ const skillGroups = [
     {
         title: "frontend",
         color: "text-neon-violet",
-        skills: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
+        skills: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+        ],
     },
     {
         title: "backend & database",
         color: "text-neon-blue",
-        skills: ["Node.js", "Firebase", "Supabase", "MySQL"],
+        skills: [
+            "FastAPI",
+            "Node.js",
+            "Firebase",
+            "Supabase",
+            "MySQL",
+            "Redis",
+        ],
     },
     {
         title: "mobile",
         color: "text-neon-cyan",
         skills: [
+            "Flutter",
             "Kotlin",
             "Jetpack Compose",
             "Android Studio",
@@ -22,12 +37,27 @@ const skillGroups = [
         ],
     },
     {
-        title: "languages & tools",
+        title: "ai & apis",
         color: "text-neon-violet",
-        skills: ["C", "Python", "Git/Github"],
+        skills: [
+            "Gemini API",
+            "Groq API",
+            "REST APIs",
+            "scikit-learn",
+            "pandas",
+        ],
+    },
+    {
+        title: "languages",
+        color: "text-neon-blue",
+        skills: ["Python", "Dart", "SQL", "C"],
+    },
+    {
+        title: "tools",
+        color: "text-neon-cyan",
+        skills: ["Git/Github", "GitHub Actions", "Vercel", "VS Code"],
     },
 ];
-
 const softSkills = [
     "Creativity",
     "Communication",
@@ -38,6 +68,13 @@ const softSkills = [
     "Disciplined work ethics",
     "Collaborative Team Player",
     "Solution Oriented",
+];
+
+const learning = [
+    "Data Structures & Algorithms",
+    "JavaScript fundamentals",
+    "Python fundamentals",
+    "System Design",
 ];
 
 function Skills() {
@@ -86,6 +123,24 @@ function Skills() {
                                 className="px-3 py-1 rounded-md border border-dashed border-line text-xs md:text-sm text-text-soft hover:text-white hover:border-neon-violet transition-colors"
                             >
                                 {skill}
+                            </span>
+                        ))}
+                    </div>
+                </div>
+
+                {/* Currently learning */}
+                <div className="reveal flex flex-col gap-3">
+                    <h3 className="font-mono text-sm font-medium text-neon-cyan flex items-center gap-2">
+                        <span className="w-2 h-2 rounded-full bg-neon-cyan animate-pulse" />
+                        ~/currently-learning
+                    </h3>
+                    <div className="flex flex-wrap gap-2">
+                        {learning.map((item) => (
+                            <span
+                                key={item}
+                                className="px-3 py-1 rounded-md border border-neon-cyan/40 bg-neon-cyan/5 text-xs md:text-sm text-neon-cyan"
+                            >
+                                {item}
                             </span>
                         ))}
                     </div>

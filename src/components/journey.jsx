@@ -1,6 +1,3 @@
-// DUMMY VALUES: edit the text inside each block.
-// To add a new entry, copy one { ... }, block and paste it where you want it (newest first).
-
 const education = [
     {
         title: "BE in Computer Science & Engineering",

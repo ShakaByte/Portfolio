@@ -26,7 +26,7 @@ const projects = [
         Title: "HemoLynk - AI Driven Blood Bank Inventory Management with Risk Redistribution Engine",
         Image: "",
         TechStack:
-            "FLUTTER, PYTHON, FIREBASE, FIREBASE REALSTORE, GOOGLE MAPS API",
+            "FLUTTER, PYTHON, FIREBASE, FASTAPI, RANDOM FOREST, DIJKSTRA, GREEDY SCORING",
         Description:
             "Developed A cross-platform app with role-based access for admins, donors, and employees to track inventory across 54 facilities in 6 districts, using synthetic data (1000+ records, 1000 donors).",
         gitlink: "https://github.com/ShakaByte/HemoLynk",
@@ -35,7 +35,8 @@ const projects = [
     {
         Title: "AniPet",
         Image: "",
-        TechStack: "Next.js, React, JavaScript, Tailwind CSS, Gemini API, Groq API, Upstash Redis, GitHub Actions",
+        TechStack:
+            "NEXT.JS, REACT, JAVASCRIPT, TAILWIND CSS, GEMINI API, GROQ API, UPSTASH REDIS, GITHUB ACTIONS",
         Description:
             "A web app that gives new and prospective pet owners a complete, easy-to-read care profile for a chosen animal breed.",
         gitlink: "https://github.com/ShakaByte/AniPet",
@@ -44,7 +45,7 @@ const projects = [
     {
         Title: "KnowledgeDrop - Secure File Sharing Portal for College",
         Image: "",
-        TechStack: "REACT, SUPABASE, RESEND",
+        TechStack: "REACT, SUPABASE",
         Description:
             "Developed A secure file sharing platform for college students with OTP-based login, file upload across 2 storage buckets, a 6-table database, and role-based access for admins, teachers, and students. Tested with 3 accounts, one per role.",
         gitlink: "https://github.com/ShakaByte/Knowledge-Drop",
@@ -53,13 +54,13 @@ const projects = [
     {
         Title: "Android App Development - CodSoft Internship",
         Image: "",
-        TechStack: "Kotlin, Android Studio, Jetpack Compose, RoomDB, SQLite",
+        TechStack: "KOTLIN, ANDROID STUDIO, JETPACK COMPOSE, ROOMDB, SQLITE",
         Description:
             "As a part of CodSoft Internship, built three Android apps in Kotlin: Quote of the Day app (quotes loaded from a local JSON file), Quiz app with multiple categories, difficulty levels, final scoring, and a saved attempts history, and To-Do List app.",
         gitlink: "https://github.com/ShakaByte/CODSOFT_TASKS",
         liveLink: "",
     },
-    
+
     {
         Title: "Pet Health and Care Web App with AI Chatbot",
         Image: "petcare.jpg",
@@ -78,7 +79,7 @@ const projects = [
             "Developed a mini project developed in 2nd year for Database Management Systems course. It is a web based Lost and Found Portal for college campus, enabling students to report, search and claim lost items efficiently. Features include item categorization, image uploads and user authentication.",
         gitlink: "https://www.github.com/ShakaByte/Lost-Found-Portal-College",
         liveLink: "",
-    }
+    },
 ];
 
 function Projects() {

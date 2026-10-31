@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 
 // Edit these lines to change what the typing animation says
 const roles = [
-    "Aspiring Software Developer",
+    "Software Developer",
     "Final Year CSE Student",
-    "React & Kotlin Builder",
+    "React & Kotlin Builder"
 ];
 
 function Hero() {
@@ -58,11 +58,20 @@ function Hero() {
                     </p>
 
                     <p className="reveal delay-3 text-text-soft leading-relaxed">
-                        I'm a final year Computer Science student who loves
-                        building things with code. I enjoy working across the
-                        stack, learning new technologies, and solving real-world
-                        problems through software. My goal is to grow into a
-                        skilled developer and contribute to impactful projects.
+                        I’m a final year Computer Science student who builds web
+                        and mobile apps from idea to working product. My
+                        strongest projects are HemoLynk, an AI-driven blood bank
+                        platform built with Flutter, Firebase, and a Python
+                        FastAPI service for risk scoring and demand forecasting,
+                        and AniPet, a live Next.js pet-care guide with
+                        AI-generated content, automatic model failover, and
+                        Redis caching. In my projects I lead the planning,
+                        design, and technical decisions, and I use AI-assisted
+                        development to turn them into working software. I’m now
+                        strengthening my coding fundamentals so I can own every
+                        layer of what I build. I’m looking for jobs,
+                        internships, and collaborations with fellow developers
+                        to build new projects together.
                     </p>
 
                     <div className="reveal delay-4 flex flex-wrap justify-center md:justify-start gap-4 pt-2">
