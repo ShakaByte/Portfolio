@@ -1,30 +1,98 @@
+// Edit / add skills here. Each group becomes one card.
+const skillGroups = [
+    {
+        title: "frontend",
+        color: "text-neon-violet",
+        skills: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
+    },
+    {
+        title: "backend & database",
+        color: "text-neon-blue",
+        skills: ["Node.js", "Firebase", "Supabase", "MySQL"],
+    },
+    {
+        title: "mobile",
+        color: "text-neon-cyan",
+        skills: [
+            "Kotlin",
+            "Jetpack Compose",
+            "Android Studio",
+            "RoomDB",
+            "SQLite",
+        ],
+    },
+    {
+        title: "languages & tools",
+        color: "text-neon-violet",
+        skills: ["C", "Python", "Git/Github"],
+    },
+];
+
+const softSkills = [
+    "Creativity",
+    "Communication",
+    "Problem Solving",
+    "Adaptability",
+    "Quick Learning Ability",
+    "Leadership",
+    "Disciplined work ethics",
+    "Collaborative Team Player",
+    "Solution Oriented",
+];
+
 function Skills() {
-    const technicalSkills = ["React", "JavaScript", "Tailwind CSS", "HTML", "CSS", "Node.js", "Kotlin", "Firebase", "Supabase", "MySQL", "C", "Python", "Git/Github", "Android Studio", "Jetpack Compose", "RoomDB", "SQLite"]
-    const softSkills = ["Creativity", "Communication", "Problem Solving", "Adaptability", "Quick Learning Ability", "Leadership", "Disciplined work ethics", "Collaborative Team Player", "Solution Oriented"]
     return (
-        <div id="Skills" className="section bg-slate-900 text-slate-100 px-4 md:px-24 h-screen flex flex-col justify-start md:justify-center pt-20 md:pt-0">
-            <h2 className="text-4xl md:text-6xl font-bold text-center mb-12">Skills</h2>
-            <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-center gap-12 md:gap-20 w-full">
-                <div className="flex flex-col items-center md:items-start gap-4">
-                    <h3 className="text-xl font-semibold">Technical Skills</h3>
-                    <div className="flex flex-wrap justify-center md:justify-start gap-3">
-                        {technicalSkills.map((skill, i) => (
-                            <span key={i} className="px-4 py-2 rounded-full bg-slate-800 border border-slate-700 text-sm font-medium hover:border-sky-600 transition-colors">{skill}</span>
-                        ))}
-                    </div>
+        <section id="Skills" className="section">
+            <div className="container-x flex flex-col gap-10">
+                <div className="reveal flex flex-col gap-2">
+                    <h2 className="section-title">Skills</h2>
+                    <p className="text-text-soft">
+                        Technologies I've worked with so far.
+                    </p>
                 </div>
-      
-                <div className="flex flex-col items-center md:items-start gap-4">
-                    <h3 className="text-xl font-semibold">Soft Skills</h3>
-                    <div className="flex flex-wrap justify-center md:justify-start gap-3">
-                        {softSkills.map((skill, i) => (
-                            <span key={i} className="px-4 py-2 rounded-full bg-slate-800 border border-slate-700 text-sm font-medium hover:border-sky-600 transition-colors">{skill}</span>
+
+                {/* Technical skill groups */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {skillGroups.map((group, i) => (
+                        <div
+                            key={group.title}
+                            className={`reveal delay-${i + 1} glow-card p-6 flex flex-col gap-4`}
+                        >
+                            <h3
+                                className={`font-mono text-sm font-medium ${group.color}`}
+                            >
+                                ~/{group.title}
+                            </h3>
+                            <div className="flex flex-wrap gap-2.5">
+                                {group.skills.map((skill) => (
+                                    <span key={skill} className="chip">
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+                        </div>
+                    ))}
+                </div>
+
+                {/* Soft skills: compact strip */}
+                <div className="reveal flex flex-col gap-3">
+                    <h3 className="font-mono text-sm font-medium text-text-soft">
+                        ~/soft-skills
+                    </h3>
+                    <div className="flex flex-wrap gap-2">
+                        {softSkills.map((skill) => (
+                            <span
+                                key={skill}
+                                className="px-3 py-1 rounded-md border border-dashed border-line text-xs md:text-sm text-text-soft hover:text-white hover:border-neon-violet transition-colors"
+                            >
+                                {skill}
+                            </span>
                         ))}
                     </div>
                 </div>
             </div>
-        </div>
-    )
+        </section>
+    );
 }
-export default Skills
-    
+
+export default Skills;
