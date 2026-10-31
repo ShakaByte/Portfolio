@@ -21,8 +21,8 @@ const education = [
 
 const experience = [
     {
-        title: "Hackathon Participant (24 hours)",
-        place: "Brain and Bytes, Nirmith Labs",
+        title: "Hackathon Participant and Lead (24 hours)",
+        place: "Brain and Bytes, Dept. of CSE(RYMEC)",
         period: "September 2025",
         note: "Built a pet care web app with an AI chatbot in a team, using Firebase and the Gemini API.",
     },
@@ -33,13 +33,13 @@ const experience = [
         note: "Built 3 basic Android mobile apps during the internship.",
     },
     {
-        title: "Job Simulation: Company Name",
+        title: "Job Simulation: Common Wealth Bank",
         place: "Forage",
         period: "July 2026",
         note: "",
     },
     {
-        title: "Job Simulation: Company Name",
+        title: "Job Simulation: Delloite",
         place: "Forage",
         period: "July 2026",
         note: "",
