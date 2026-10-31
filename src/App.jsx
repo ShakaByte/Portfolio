@@ -2,9 +2,9 @@ import { useEffect } from "react";
 
 import Navbar from "./components/navbar";
 import Hero from "./components/Hero";
-import Stats from "./components/Stats";
+import Stats from "./components/stats";
 import Skills from "./components/Skills";
-import Journey from "./components/Journey";
+import Journey from "./components/journey";
 import Projects from "./components/Projects";
 import Certificates from "./components/Certificates";
 import ResumeContact from "./components/resumecontact";
